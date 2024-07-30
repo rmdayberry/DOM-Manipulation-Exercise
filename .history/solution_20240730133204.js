@@ -14,9 +14,4 @@ document.getElementById("task6").value = "DOM Master";
 
 document.getElementById("task7").classList.add("new-class");
 
-const taskEightBtn = document.createElement("button");
-taskEightBtn.innerText = "Task 8 Button";
-document.getElementById("task8").appendChild(taskEightBtn);
-
-const task9 = document.getElementById("task9");
-task9.parentNode.removeChild(task9);
+document.getElementById("task8").innerHTML = "<button>";
